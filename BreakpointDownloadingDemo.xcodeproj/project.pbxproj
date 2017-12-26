@@ -15,6 +15,7 @@
 		9A1A76DB1FF0FB38007AF05C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A76DA1FF0FB38007AF05C /* main.m */; };
 		9A1A76E51FF0FB38007AF05C /* BreakpointDownloadingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A76E41FF0FB38007AF05C /* BreakpointDownloadingDemoTests.m */; };
 		9A1A76F01FF0FB38007AF05C /* BreakpointDownloadingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A76EF1FF0FB38007AF05C /* BreakpointDownloadingDemoUITests.m */; };
+		9A1A77001FF0FCAC007AF05C /* DataDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A76FF1FF0FCAC007AF05C /* DataDownLoadManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9A1A76EB1FF0FB38007AF05C /* BreakpointDownloadingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakpointDownloadingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A1A76EF1FF0FB38007AF05C /* BreakpointDownloadingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakpointDownloadingDemoUITests.m; sourceTree = "<group>"; };
 		9A1A76F11FF0FB38007AF05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A1A76FE1FF0FCAC007AF05C /* DataDownLoadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataDownLoadManager.h; sourceTree = "<group>"; };
+		9A1A76FF1FF0FCAC007AF05C /* DataDownLoadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataDownLoadManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				9A1A76CC1FF0FB38007AF05C /* AppDelegate.m */,
 				9A1A76CE1FF0FB38007AF05C /* ViewController.h */,
 				9A1A76CF1FF0FB38007AF05C /* ViewController.m */,
+				9A1A76FD1FF0FC86007AF05C /* DownloadTool */,
 				9A1A76D11FF0FB38007AF05C /* Main.storyboard */,
 				9A1A76D41FF0FB38007AF05C /* Assets.xcassets */,
 				9A1A76D61FF0FB38007AF05C /* LaunchScreen.storyboard */,
@@ -130,6 +134,15 @@
 				9A1A76F11FF0FB38007AF05C /* Info.plist */,
 			);
 			path = BreakpointDownloadingDemoUITests;
+			sourceTree = "<group>";
+		};
+		9A1A76FD1FF0FC86007AF05C /* DownloadTool */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A76FE1FF0FCAC007AF05C /* DataDownLoadManager.h */,
+				9A1A76FF1FF0FCAC007AF05C /* DataDownLoadManager.m */,
+			);
+			path = DownloadTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A1A76D01FF0FB38007AF05C /* ViewController.m in Sources */,
+				9A1A77001FF0FCAC007AF05C /* DataDownLoadManager.m in Sources */,
 				9A1A76DB1FF0FB38007AF05C /* main.m in Sources */,
 				9A1A76CD1FF0FB38007AF05C /* AppDelegate.m in Sources */,
 			);
